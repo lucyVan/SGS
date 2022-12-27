@@ -32,11 +32,16 @@ The HMBFL folder stores the original script for the higher-order mutation-based 
 The folder of the respective HOMS generation strategies contains the implementation code for the three suspiciousness statistics methods
 
 
-## SGS:
+## mbfl sbfl result_get:
+These are some tools for reduction of mutants.
+
+
+## SGS.py:
 
 The SGS folder stores the script for SGS mutant reduction method.
 
-
+### Using SGS.py：
+After getting the set of higher-order mutants by the code in the HMBFL directory, the table of experimental results can be obtained by configuring the directory where the higher-order mutants are located in the CHMBFL function.
 
 ## Remarks：
 
